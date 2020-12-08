@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Search(failed)">
+    <classes>
+      <class name="com.comcast.Regression.Testcaseex">
+        <methods>
+          <include name="flightSearch"/>
+          <include name="navigatetoURL"/>
+          <include name="initialize"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- com.comcast.Regression.Testcaseex -->
+    </classes>
+  </test> <!-- Search(failed) -->
+</suite> <!-- Failed suite [Suite] -->
